@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 until
   mysqladmin ping -h ${MYSQL_HOST} -u${MYSQL_USER} -p${MYSQL_PASSWORD}
